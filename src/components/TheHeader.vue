@@ -13,7 +13,7 @@
           <li><a href="#features">Features</a></li>
           <li><a href="#FAQ">FAQ</a></li>
           <li v-if="user" class="flex items-center gap-2">
-            <RouterLink to="/dashboard"><span>{{ user?.name }}</span></RouterLink>
+            <RouterLink to="/dashboard" class="underline"><span>{{ user?.name }}</span></RouterLink>
             <div class="size-10 rounded-full text-white bg-green-400 flex items-center justify-center">{{ userInitials
             }}</div>
           </li>

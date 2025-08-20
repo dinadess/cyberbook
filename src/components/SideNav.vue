@@ -14,7 +14,7 @@
     </RouterLink>
 
     <button type="button"
-      class="text-white bg-primary hover:bg-green-700 focus-visible:ring-4 focus-visible:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:hover:bg-green-700  dark:focus:ring-green-800 cursor-pointer flex items-center gap-1 justify-center mt-auto"
+      class="text-white bg-red-500 hover:bg-red-700 focus-visible:ring-4 focus-visible:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 cursor-pointer flex items-center gap-1 justify-center mt-auto"
       @click="userStore.logout(router)">
       <ArrowUpOnSquareIcon class="size-6 rotate-90" />
       Déconnexion
