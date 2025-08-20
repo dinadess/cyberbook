@@ -1,34 +1,24 @@
-# test-cyberspector
+# CyberBook
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Votre web app de gestion de favoris conçue avec Vue.js et TailwindCSS.
 
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+## Installation du projet
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Serveur de développement
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
+### Linter avec [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint

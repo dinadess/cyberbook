@@ -7,8 +7,13 @@ import { RouterLink } from 'vue-router';
 
 <template>
   <div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-4">
-      <section class="max-w-[42rem] py-18 flex flex-col justify-center items-start min-h-[calc(100dvh_-_72px)]">
+    <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-4 my-8">
+      <div class="w-full lg:rotate-6 lg:scale-105 lg:order-2">
+        <img src="/cyberbook-dark.png" alt="Dashboard en darkmode de Cyberbook"
+          class="border-2 border-primary shadow-xl rounded-2xl">
+      </div>
+
+      <section class="max-w-[42rem] py-18 flex flex-col justify-center items-start xl:min-h-[calc(100dvh_-_72px)]">
         <h1 class="text-3xl md:text-5xl font-semibold mb-4">Retrouvez. Organisez. Et gérez tous vos favoris en un seul
           endroit.</h1>
         <p class="mb-8">CyberBook vous aide à sauvegarder, organiser et retrouver vos liens en toute simplicité. Fini
@@ -22,11 +27,6 @@ import { RouterLink } from 'vue-router';
           Essayer
           gratuitement</RouterLink>
       </section>
-      <div class="w-full rotate-6 scale-105">
-        <img src="/cyberbook-dark.png" alt="Dashboard en darkmode de Cyberbook"
-          class="border-2 border-primary shadow-xl rounded-2xl">
-      </div>
-
     </div>
 
     <HomeFeatures />
